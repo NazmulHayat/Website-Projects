@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+  </head>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <body>
+    <p id = "heading">Weather.api</p>
+    <div class  = "main">
+      <div id = "inputs">  
+        <div>
+          <input id = "inpval" placeholder = "Enter City name">
+          <button type = "submit" id = "submit" onclick = "Enter()">Search</button>
+        </div><br><br>
+      </div>
+
+      <div id = "output">
+        <p id = 'temp'></p>
+        <p id = 'feels_like'></p>
+        <p id = 'description'></p>
+        <p id = 'humidity'></p>
+        <p id = 'pressure'></p>
+      </div>
+      
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

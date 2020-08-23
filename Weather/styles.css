@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face{
+  font-family: myFirstFont;
+  src: url(big_noodle_titling.otf);
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.main{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+}
+
+#heading{
+  font-size: 50px;
+  color: aliceblue;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#inpval{
+  background: #000;
+    border: 1px solid #5c4841;
+    border-radius: 3px 0 0 3px;
+    color: #adadad;
+    font-size: 25px;
+    height: 60px;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 17px;
+    position: relative;
+    width: 700px;
+    transition: none;
+}
+
+#submit{
+  font-family: oswald regular;
+  font-size: 25px;
+  color: #fff;
+  width: 112px;
+  height: 55px;
+  line-height: 37px;
+  text-shadow: 0 -1px 2px #000;
+  border: 1px solid #ee490e;
+  border-radius: 0 3px 3px 0;
+  background-color: #b42f00;
+}
+
+
+
+#output{
+  position: absolute;
+  font-size: 64px;
+  font-weight: 1000;
+  color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  left: 100px;
+}

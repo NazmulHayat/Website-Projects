@@ -1,0 +1,98 @@
+.chat {
+    width: 56%;
+    position: absolute;
+    display: grid;
+    left:42%;
+    grid-template-columns: 100%;
+    justify-items: end;
+}
+.input {
+    background: #5F5F5F;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    transform: translateX(-0.5%);
+    grid-template-columns: 100%;
+    justify-items: end;
+    justify-content: end;
+}
+
+.inpval {
+    width: 500px;
+    height: 25.5px;
+    transform: translate(0%,-14.5%);
+}
+.more_shit{
+    transform:translate(-17%);
+}
+.fader {
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    transform:translateY(-2.6%);
+    background-image: linear-gradient(0deg,rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+.shit {
+    display: grid;
+    grid-template-columns: 80%;
+}
+.ALL {
+    
+    margin-bottom: -6px;
+}
+.shit.yous {
+    justify-items: end;
+    justify-content: end;
+}
+.shit.others {
+    justify-items: start;
+    justify-content: start;
+}
+.ALL.TXT {
+    word-break: break-all;
+    white-space: normal;
+    padding: 9px 14px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-size:18px;
+    word-wrap: break-word;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 14px 14px 0px 14px;
+}
+.ALL.TXT.you {
+    background-image: linear-gradient(45deg,rgb(255,77,0), rgb(255,135,0));
+    border-radius: 14px 0px 14px 14px;
+}
+.ALL.TXT.other {
+    background-image: linear-gradient(45deg,rgb(255,77,0), rgb(255,135,0));
+    border-radius: 0px 14px 14px 14px;
+}
+.empty{
+    height:45px;
+}
+.list {
+    display: grid;
+    height: 95%;
+    width: 40%;
+   
+    position: fixed;
+    background: linear-gradient(45deg,rgba(255,77,0,1), rgba(255,135,0,0)), 
+                linear-gradient(-45deg,rgba(255,0,0,1), rgba(255,255,0));
+    transform: translate(-1.4%,-1.4%);
+    overflow: auto;
+}
+.chat_users {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 14px 14px 14px 14px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+

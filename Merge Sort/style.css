@@ -1,0 +1,45 @@
+body{
+  background-color: black;
+}
+
+#inputval{
+    font-size: 20px;
+    height: 30px;
+    width: 250px;
+}
+
+#textstyle{
+  font-size:30px;
+  color: white;
+}
+
+.boxed {
+  text-align: left;
+  border: 1px solid white ;
+  font-size: 20px;
+  height: 30px;
+  width: 250px;
+  background-color: white;
+}
+
+.button{
+  font-size: 18px;
+  height: 30px;
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    font-family: Arial;
+}
+
+#demo{
+  font-size: 20px;
+  height: 30px;
+  width: 217px;
+}

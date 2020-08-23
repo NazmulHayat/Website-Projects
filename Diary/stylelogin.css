@@ -1,0 +1,223 @@
+body {
+  background:url("bg3.jpg") no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+input, button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.main-div, .loggedin-div {
+  width: 20%;
+  margin: 0px auto;
+  margin-top: 150px;
+  padding: 20px;
+  display: none;
+}
+
+.main-div input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div input:focus {
+  border: 1px solid #777;
+}
+
+.main-div button, .loggedin-div button {
+  background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div button:hover, .loggedin-div button:hover {
+  background: #fff;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+}
+
+
+.main2{
+  display: none;
+}
+
+.main2-div, .loggedin-div {
+  width: 20%;
+  margin: 0px auto;
+  margin-top: 150px;
+  padding: 20px;
+  display: none;
+}
+
+.main2-div input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main2-div input:focus {
+  border: 1px solid #777;
+}
+
+.main2-div button, .loggedin-div button {
+  background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main2-div button:hover, .loggedin-div button:hover {
+  background: #fff;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+}
+
+.btn {
+  top: 100px;
+}
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 51.5%;
+  transform: translate(-50%, -50%);
+}
+
+#aunti{
+  width: auto;
+}
+a#yoo{
+  display: none;
+  position: absolute;
+  margin: auto;
+  top: 80px;
+  right: 0;
+  left: 0;
+  width: 280px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  background-color: white;
+}
+
+a#yoo span{
+  position: relative;
+  z-index: 2;
+}
+
+#user_para{
+  font-size: 20px;
+}
+a#yoo:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+a#yoo:hover{
+  color: #fff;
+}
+
+a#yoo:hover:after{
+  width: 100%;
+}
+
+.fa-long-arrow-right:before {
+    content: "\f178";
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+a.bt{
+  display: block;
+  border: none;
+  background-color: transparent;
+  color: rgb(240,255,240);
+  position: absolute;
+  left: 45%;
+  transition: all 0.4s;
+  top: 75%;
+  font-size: 15px;
+  touch-action: manipulation;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 19px;
+  color: #cccccc;
+  line-height: 1.4;
+}
+
+.back{
+  display: none;
+}
+a.asd{
+  border: none;
+  background-color: transparent;
+  color: rgb(240,255,240);
+  position: absolute;
+  left: 43%;
+  transition: all 0.4s;
+  top: 75%;
+  font-size: 15px;
+  touch-action: manipulation;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 19px;
+  color: #cccccc;
+  line-height: 1.4;
+  left: 50%;
+}
